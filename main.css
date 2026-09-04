@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/*border: 1px solid rgba(34,222, 34, 1.0);*/
+}
+
+body,html{
+	height: 100%;
+	width: 100%;
+	background: #FAFAFA;
+	color: #020202;
+	font-family: monospace;
+	font-size: 1.3rem;
+}
+body{
+	background: #000;
+	color: #FAFAFA;
+	text-align: center;
+}
+h1{
+	padding: 2rem;
+}
+.moves{
+	margin-bottom: 4rem;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	font-size: 3vw;
+	justify-content: center;
+}
+.moves div{
+	width: fit-content;
+	padding: 2rem;
+}
+.options{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.options button{
+	background: transparent;
+	color:  #FAFAFA;
+	width: 6.5rem;
+	padding: 1rem;
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #FAFAFA;
+}
+.score-board{
+	padding: 1rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.player-move{
+	margin: 1rem;
+	border: 1px solid rgba(34,222, 34, 1.0);
+}
+.cpu-move{
+	margin: 1rem;
+	border: 1px solid rgba(34,32, 234, 1.0);
+}
+
+.options button:hover{
+	background: #FAFAFA;
+	color: #000;
+}
+.message{
+	background: rgba(34,222, 34, 1.0);
+	width: 40%;
+	padding: 1rem;
+	position: absolute;
+	right: 0;
+	bottom: 10%;
+	transition: all .5s;
+}
+.footer{
+	width: 100vw;
+	position: absolute;
+	bottom: 0;
+	padding: .5rem;
+}
+
+.hidden{
+	display: none;
+}
