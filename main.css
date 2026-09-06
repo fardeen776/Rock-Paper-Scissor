@@ -18,25 +18,28 @@ body{
 	color: #FAFAFA;
 	text-align: center;
 }
-h1{
+.main{
 	padding: 2rem;
 }
+
 .moves{
-	margin-bottom: 4rem;
+	margin-bottom: 1rem;
 	width: 100%;
 	text-align: center;
+	padding: 2rem;
 	display: flex;
-	font-size: 3vw;
+	font-size: 2.5vw;
 	justify-content: center;
 }
 .moves div{
 	width: fit-content;
-	padding: 2rem;
+	/*padding: 2rem;*/
 }
 .options{
 	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
+
 }
 .options button{
 	background: transparent;
@@ -78,10 +81,9 @@ h1{
 	transition: all .5s;
 }
 .footer{
-	width: 100vw;
+	font-size: 1rem;
 	position: absolute;
 	bottom: 0;
-	padding: .5rem;
 }
 
 .hidden{
